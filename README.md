@@ -31,6 +31,8 @@ och i en sparfil (`.json`) som är backupen.
 - **Spara fil** skriver allt till en `.json`-fil. I Chrome och Edge skrivs samma fil över varje gång
   (lägg den t.ex. i iCloud Drive eller Dropbox). Safari laddar ned en ny fil varje gång – därför
   rekommenderas Chrome eller Edge.
+- Sparfilen innehåller personuppgifter (coachnamn, kalasbeställares e-post). Lägg den aldrig i
+  projektmappen eller i git; `.gitignore` stoppar filer som heter `katana-schema*.json`.
 - **Öppna fil** ersätter (efter bekräftelse) allt i appen med filens innehåll. Det går att ångra.
 - Längst ned visas ”Senast sparad till fil”. Har filen inte sparats på 7 dagar och det finns ändringar
   visas en påminnelse.

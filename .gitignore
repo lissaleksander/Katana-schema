@@ -3,3 +3,7 @@ dist
 test-results
 playwright-report
 *.tsbuildinfo
+
+# Sparfiler från appen innehåller personuppgifter (coachnamn, kalasbeställares e-post)
+# och får aldrig hamna i repot. Spara dem i iCloud/Dropbox i stället.
+katana-schema*.json
